@@ -32,7 +32,7 @@ import ChildCounter from '~/components/pages/ChildCounter'
 
 // This component to support test karma purpose
 export default {
-  name: 'Counter',
+  name: 'TheCounter',
   components: {
     ChildCounter
   },
@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     increment () {
-      this.$store.commit('counter/increment')
+      this.$store.dispatch('counter/increment')
     },
     changeItemOneNotReactive () {
       let vm = this

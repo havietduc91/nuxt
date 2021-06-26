@@ -4,6 +4,8 @@
       <Logo />
       <NuxtLink to="/users">Users</NuxtLink>
       <NuxtLink to="/">Home page</NuxtLink>
+      <NuxtLink to="/hello-world">Hello world</NuxtLink>
+      <NuxtLink to="/counter">Counter</NuxtLink>
       <h1 class="title">
         tribeck-bo
       </h1>

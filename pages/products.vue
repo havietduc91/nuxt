@@ -1,16 +1,16 @@
 <template>
-  <TheCounter />
+  <ProductList />
 </template>
 
 <script>
-import TheCounter from '~/components/pages/TheCounter'
+import ProductList from '~/components/pages/ProductList'
 
 // This component to support test karma purpose
 export default {
-  name: 'counter',
+  name: 'products',
   layout: 'admin',
   components: {
-    TheCounter
+    ProductList
   },
 }
 </script>
